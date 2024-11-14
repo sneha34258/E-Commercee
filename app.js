@@ -25,7 +25,7 @@ const Cart = require("./models/cartModel");
 const orderStatusRouter = require("./routes/order-status-router");
 
 mongoose
-  .connect("mongodb://localhost:27017")
+  .connect("mongodb+srv://sneha856be22:mishtigoyal1808@e-commerce.yo2ka.mongodb.net/E-commerce?retryWrites=true&w=majority&appName=E-commerce")
   .then(() => {
     console.log("Database Connected");
   })
